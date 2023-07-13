@@ -55,7 +55,8 @@ where
 
 Another variant is considered when dealing with more than two variables: 
 
-```math f( \mathbf{x}) = \sum_{i=1}^{N-1} \left(100(x_{i+1} - x_i^2 )^2 + (1-x_i)^2 \right) 
+```math 
+f( \mathbf{x}) = \sum_{i=1}^{N-1} \left(100(x_{i+1} - x_i^2 )^2 + (1-x_i)^2 \right) 
 ```
 where 
 - $` \mathbf{x} = (x_1, ..., x_N) \in \mathbb{R}^N `$
