@@ -1,3 +1,4 @@
+[![Open In nbviewer](https://user-images.githubusercontent.com/2791223/29387450-e5654c72-8294-11e7-95e4-090419520edb.png)](https://nbviewer.org/github/Robaie98/unconstrained-local-optimization/blob/main/optimization.ipynb)
 # Unconstrained Local Optimization Algorithms Comparison using Scipy Library Optimizers
 
 This repository represents an analysis of unconstrained optimization on multiple convex and non-convex test functions using some of Scipy library optimizers. Visual illustrations of the test functions are provided for 2-dimensional cases while summary reports are created when analyzing the performance over multiple n-dimensional cases. The listed optimizers are selected such that they require at least no information about the test function.
@@ -53,9 +54,9 @@ where
 - $x_1, x_2, b, \text{ and } a \in \mathbb{R}  $
 
 Another variant is considered when dealing with more than two variables: 
-$$ f( \mathbf{x}) = \sum_{i=1}^{N-1} \left(100(x_{i+1} - x_i^2 )^2 + (1-x_i)^2 \right)$$
+$$` f( \mathbf{x}) = \sum_{i=1}^{N-1} \left(100(x_{i+1} - x_i^2 )^2 + (1-x_i)^2 \right) `$$
 where 
-- $ \mathbf{x} = (x_1, ..., x_N) \in \mathbb{R}^N$
+- $` \mathbf{x} = (x_1, ..., x_N) \in \mathbb{R}^N `$
 
 ___
 ### Quadratic Function
