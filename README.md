@@ -88,7 +88,7 @@ f( \mathbf{x}) = -\sum_{i=1}^d sin(x_i) sin^{2m}\left(\frac{ix_i^2}{\pi}\right)
 ```
 
 where 
-- $``  \mathbf{x}= (x_1, ..., x_d) \in \mathbb{R}^d `$
+- $`  \mathbf{x}= (x_1, ..., x_d) \in \mathbb{R}^d `$
 - $m \in \mathbb{R}$
 
 ___
